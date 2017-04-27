@@ -24,14 +24,6 @@ var manifest = {
         "scripts/background.js"
       ]
     }
-  },
-
-  firefox: {
-    "applications": {
-      "gecko": {
-        "id": "my-app-id@mozilla.org"
-      }
-    }
   }
 }
 
