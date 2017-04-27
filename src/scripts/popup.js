@@ -70,7 +70,6 @@ document.addEventListener('DOMContentLoaded', function() {
 				topicContent.className = "topic-content";
 
 				const topicDate = new Date(post.topic_last_post_time * 1000);
-				console.log(topicDate.getDate(), topicDate.getMonth());
 				if (`${topicDate.getDate()}/${topicDate.getMonth()}/${topicDate.getFullYear()}` !== `${currentDate.getDate()}/${currentDate.getMonth()}/${currentDate.getFullYear()}`) {
 					topicContent.innerText = `${topicContent.innerText} le ${topicDate.getDate().padLeft(2)}/${(topicDate.getMonth()+1).padLeft(2)}`
 				}
