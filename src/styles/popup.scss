@@ -1,0 +1,48 @@
+body {
+	background-image: url(/images/background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-attachment: fixed;
+	font-family: 'Arial',sans-serif;
+}
+
+.container {
+	width: 350px;
+}
+
+.players {
+	text-align: center;
+}
+
+.news {
+	display: none;
+}
+
+.topic {
+	color: #baa18d!important;
+	text-decoration: none!important;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.box {
+	background-color: rgba(55, 43, 43, 0.55);
+	padding: 16px 9px 10px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+
+	h3 {
+		color: #baa18d!important;
+		text-align: center;
+		margin-top: 0;
+	}
+}
+
+.divider {
+	padding-bottom: 5px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+	margin-bottom: 5px;
+	height: 1px;
+	width: 100%;
+}
